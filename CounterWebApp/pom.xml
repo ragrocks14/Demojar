@@ -7,7 +7,7 @@
   <groupId>com.my</groupId>
   <artifactId>CounterWebApp</artifactId>
   <packaging>war</packaging>
-  <version>2.1</version>
+  <version>2.2-SNAPSHOT</version>
   <name>CounterWebApp Maven Webapp</name>
 
   <url>http://maven.apache.org</url>
@@ -30,7 +30,7 @@
   <developerConnection>
     scm:git:https://github.com/ragrocks14/Test.git
   </developerConnection>
-    <tag>CounterWebApp-2.1</tag>
+    <tag>CounterWebApp-2.0</tag>
   </scm> 
  <build>
    <plugins>
