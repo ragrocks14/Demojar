@@ -3,14 +3,14 @@
   <groupId>formac.devops</groupId>
   <artifactId>sample</artifactId>
   <packaging>jar</packaging>
-  <version>2</version>
+  <version>3-SNAPSHOT</version>
   <name>sample</name>
   <url>http://maven.apache.org</url>
 
 <scm>
  <connection>scm:git:https://github.com/ragrocks14/Demojar.git</connection>
 <developerConnection>scm:git:https://github.com/ragrocks14/Demojar.git</developerConnection>
-  <tag>sample-2</tag>
+  <tag>HEAD</tag>
   </scm>
 <build>
 <plugins>
