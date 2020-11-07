@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+
+  <groupId>org.sample.app</groupId>
+  <artifactId>sampleapp</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>sampleapp</name>
+  <url>http://maven.apache.org</url>
+
+  <distributionManagement>
+  <repository>
+  <id>release</id>
+  <url>http://192.168.87.36//repository/maven-releases</url>
+  </repository>
+  <snapshotRepository>
+  <id>snapshots</id>
+  <url>http://192.168.87.36/repository/maven-snapshots</url>
+  </snapshotRepository>
+  </distributionManagement>
+
+
+   <scm>
+   <connection>scm:git:https://github.com/ragrocks14/Demojar.git</connection>
+   <developerconnection>scm:git:https://github.com/ragrocks14/Demojar.git</developerconnection>
+   </scm>
+   
+   
+   <build>
+    <plugins>
+     <plugin>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-release-plugin</artifactId>
+      <version>2.0</version>
+     </plugin>
+    </plugins>
+   </build>
+
+
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+[root@Jenkins-test sampleapp]#
