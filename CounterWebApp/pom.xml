@@ -25,11 +25,11 @@
 
 <scm>
   <connection>
-   scm:git:https://github.com/ragrocks14/Demojar.git
+   scm:git:https://github.com/ragrocks14/tests.git
   </connection>
   
   <developerConnection>
-  scm:git:https://github.com/ragrocks14/Demojar.git
+  scm:git:https://github.com/ragrocks14/tests.git
   </developerConnection>
   <tag>CounterWebApp-2.0</tag>
   </scm>
