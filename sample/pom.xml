@@ -3,7 +3,7 @@
   <groupId>formac.devops</groupId>
   <artifactId>sample</artifactId>
   <packaging>jar</packaging>
-  <version>3-SNAPSHOT</version>
+  <version>4.0</version>
   <name>sample</name>
   <url>http://maven.apache.org</url>
 
